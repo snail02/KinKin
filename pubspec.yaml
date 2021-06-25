@@ -1,0 +1,65 @@
+name: flutter_app
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.3
+  shared_preferences: ^2.0.5
+  google_fonts: ^2.0.0
+  page_transition: ^2.0.1-nullsafety.0
+  dio: ^4.0.0
+  easy_localization: ^3.0.0
+  #fluttertoast: ^8.0.6
+  another_flushbar: ^1.10.20
+  cached_network_image: ^3.0.0
+  flutter_easyloading: ^3.0.0
+  flutter_svg: ^0.22.0
+  expansion_tile_card: ^2.0.0
+  google_maps_flutter: ^2.0.3
+  flutter_sound: ^8.1.1
+  flutter_cache_manager: ^3.0.1
+  http: ^0.13.3
+  permission_handler:
+  audioplayers:
+  path_provider:
+  flutter_launcher_icons:
+  url_launcher:
+  provider:
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon_app.png"
